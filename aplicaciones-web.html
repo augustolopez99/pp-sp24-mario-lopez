@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nombre del Proyecto</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+<body>
+    <header>
+        <h1>Proyecto de Software</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Proyecto de Software</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aplicaciones-web.html">Aplicaciones Web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="framework.html">Framework</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creditos.html">Créditos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <section>
+        <h2>Frontend</h2>
+        <p>Frontend es la parte de una aplicación o sitio web con la que los usuarios interactúan directamente. 
+            Incluye el diseño, la estructura y el comportamiento visual de las páginas y elementos que los
+             usuarios ven y utilizan. El desarrollo frontend se enfoca en la experiencia de usuario (UX) y
+              la interfaz de usuario (UI) y utiliza tecnologías específicas para lograr una apariencia atractiva
+               y una funcionalidad eficiente. Tecnologías utilizadas:</p>
+        <ul>
+            <li>HTML: es el lenguaje de marcado estándar utilizado para crear la estructura 
+                y el contenido de las páginas web. Es el esqueleto básico de cualquier 
+                sitio web y define elementos como textos, imágenes, enlaces, botones y otros componentes visuales.</li>
+            <li>CSS: es un lenguaje utilizado para definir el estilo y diseño visual de una página web. Mientras que HTML estructura el contenido, CSS se encarga de la apariencia, estableciendo cómo se verán los elementos de la página, incluyendo colores, fuentes, espaciado, márgenes y disposición de los elementos.</li>
+            <li>JavaScript</li>
+        </ul>
+        <h2>Backend</h2>
+        <p>El backend es la parte que maneja la lógica y el procesamiento de datos en el servidor. 
+            Tecnologías utilizadas:</p>
+        <ul>
+            <li>Bases de datos (ej. MySQL, MongoDB)</li>
+            <li>Lenguajes de programación (ej. PHP, Python, Node.js)</li>
+            <li>Servidores web (ej. Apache, Nginx)</li>
+        </ul>
+        <h2>FullStack</h2>
+        <p>Un desarrollador full stack trabaja tanto en el frontend como en el backend.</p>
+    </section>
+
+    <button onclick="topFunction()" id="topBtn" title="Ir Arriba">↑</button>
+
+<script>
+    // Mostrar botón cuando el usuario baja 20px
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+
+    // Volver al principio de la página
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+<footer class="bg-dark text-white text-center py-3"></footer>
+    <p>Proyecto de Software &copy; 2024</p>
+</footer> 
+</html>

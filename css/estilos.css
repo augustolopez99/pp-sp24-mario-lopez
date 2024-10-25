@@ -1,0 +1,27 @@
+#topBtn {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijar en la pantalla */
+    bottom: 20px; /* Distancia desde abajo */
+    right: 30px; /* Distancia desde la derecha */
+    z-index: 99; /* Asegurar que esté por encima de otros elementos */
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cambia a cursor de mano */
+    padding: 15px; /* Espaciado interior */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+#topBtn:hover {
+    background-color: #555; /* Cambia el color al pasar el cursor */
+}
+
+a {
+    transition: color 0.3s ease; /* Transición suave de color */
+}
+
+a:hover {
+    color: #007bff; /* Cambia a color azul cuando el mouse está sobre el enlace */
+}
